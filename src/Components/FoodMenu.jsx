@@ -76,19 +76,19 @@ const FoodMenu = () => {
           <div className="flex justify-between  ">
             <button
               onClick={() => filterPrice("₦500")}
-              className="m-0.5 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className=" border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
             >
               ₦500
             </button>
             <button
               onClick={() => filterPrice("₦1000")}
-              className="m-0.5 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className=" border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
             >
               ₦1000
             </button>
             <button
               onClick={() => filterPrice("₦1500")}
-              className="m-0.5 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className=" border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
             >
               ₦1500
             </button>
