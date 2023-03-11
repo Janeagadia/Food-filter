@@ -30,11 +30,11 @@ const FoodMenu = () => {
       </h1>
       {/* filter row */}
 
-      <div className="flex flex-col lg:flex-row justify-between ">
+      <div className="flex flex-col lg:flex-row justify-between  ">
         {/* filter type  */}
         <div>
           <p className="font-bold text-gray-700   ">Filter Type</p>
-          <div className="flex justify-between flex-wrap ">
+          <div className="flex justify-between flex-wrap sm:p-2">
             <button
               onClick={() => setFoods(data)}
               className="border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
